@@ -16,10 +16,12 @@ function SearchResults({results}) {
           <div className='group '>
           
             <a
+            rel="noopener noreferrer"
               href={result.link}
               target='_blank'
               className='text-sml'>{result.formattedUrl}</a>
               <a
+              rel="noopener noreferrer"
               href={result.link}
               target='_blank'
               className='truncate text-xl text-blue-800 front-medium group-hover:underline whitespace-normal'><h2>{result.title}</h2></a>
